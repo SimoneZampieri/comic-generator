@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+body {
+    font-family: 'Bangers', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
