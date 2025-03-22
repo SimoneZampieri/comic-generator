@@ -17,12 +17,20 @@ const ComicCard = ({ currentComic }) => {
           {currentComic.name}
         </h5>
 
+        {/* Autori e Editore */}
+        <p className="mb-2 text-lg font-semibold text-gray-800">
+          Autori: {currentComic.autori}
+        </p>
+        <p className="mb-4 text-lg font-semibold text-gray-800">
+          Editore: {currentComic.editore}
+        </p>
+
         {/* Descrizione dentro un balloon */}
-        <div className="relative bg-white p-4 border-4 border-black rounded-lg shadow-lg">
+        <div className="relative bg-yellow-100 p-4 border-4 border-black rounded-lg shadow-2xl">
           <p className="mb-3 font-normal text-gray-900">
             {currentComic.description}
           </p>
-          <div className="absolute -bottom-3 left-6 w-6 h-6 bg-white border-l-4 border-b-4 border-black transform rotate-45"></div>
+          <div className="absolute -bottom-3 left-6 w-6 h-6 bg-yellow-100 border-l-4 border-b-4 border-black transform rotate-45"></div>
         </div>
       </div>
     </div>
