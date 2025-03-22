@@ -8,8 +8,8 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-8xl font-bold text-center text-yellow-400 drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] uppercase mb-10">
+    <div className="flex flex-col items-center justify-center h-screen p-4 text-center">
+      <h1 className="text-4xl md:text-8xl font-bold text-yellow-400 drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] uppercase mb-10">
         Blocco del lettore? Clicca il bottone per eliminarlo!
       </h1>
       <button
