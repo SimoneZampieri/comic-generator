@@ -26,11 +26,12 @@ const ComicCard = ({ currentComic }) => {
         </p>
 
         {/* Descrizione dentro un balloon */}
-        <div className="relative bg-yellow-100 p-4 border-4 border-black rounded-lg shadow-2xl">
-          <p className="mb-3 font-normal text-gray-900">
-            {currentComic.description}
-          </p>
-          <div className="absolute -bottom-3 left-6 w-6 h-6 bg-yellow-100 border-l-4 border-b-4 border-black transform rotate-45"></div>
+        <div className=" bg-yellow-100 p-4 border-4 border-black rounded-lg shadow-2xl max-h-40 md:max-h-60 overflow-hidden">
+          <div className="overflow-y-auto max-h-full pr-2">
+            <p className="mb-3 font-normal text-gray-900">
+              {currentComic.description}
+            </p>
+          </div>
         </div>
       </div>
     </div>
