@@ -21,9 +21,9 @@ const ComicsRoll = () => {
       <br />
       <button
         onClick={handleRoll}
-        className="bg-red-400 text-black font-bold py-2 px-4 rounded-full hover:bg-red-600 mt-4"
+        className="bg-red-400 text-black font-bold py-2 px-4 rounded-full hover:bg-red-600 mt-4 drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] active:bg-red-700 active:translate-y-1"
       >
-        Non mi ispira
+        Non mi ispira...
       </button>
     </div>
   );

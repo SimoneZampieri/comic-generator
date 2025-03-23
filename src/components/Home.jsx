@@ -14,7 +14,7 @@ const Home = () => {
       </h1>
       <button
         onClick={handleStart}
-        className="bg-red-400 text-black font-bold py-4 px-8 rounded-full hover:bg-red-600 cursor-pointer"
+        className="bg-red-400 text-black font-bold py-4 px-8 rounded-full hover:bg-red-600 active:bg-red-700 active:translate-y-1 cursor-pointer drop-shadow-[3px_3px_0px_rgba(0,0,0,1)]"
       >
         Vai!
       </button>
