@@ -27,13 +27,13 @@ const ComicCard = ({ currentComic }) => {
 
         {/* bottone per comprare */}
         <a href={currentComic.link}>
-          <button className="bg-yellow-400 rounded-full text-black font-bold py-4 px-8 cursor-pointer drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] active:bg-yellow-600 active:translate-y-1">
+          <button className="bg-yellow-400 rounded-full text-black font-bold py-2 md:py-4 px-4 md:px-8 text-sm md:text-base cursor-pointer drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] active:bg-yellow-600 active:translate-y-1 my-3">
             Ti piace? Acquistalo!
           </button>
         </a>
 
         {/* Descrizione dentro un balloon */}
-        <div className=" bg-yellow-100 p-4 border-4 border-black rounded-lg shadow-2xl max-h-40 md:max-h-60 overflow-hidden">
+        <div className="relative bg-yellow-100 p-4 border-4 border-black rounded-lg shadow-2xl max-h-40 md:max-h-60 overflow-hidden">
           <div className="overflow-y-auto max-h-full pr-2">
             <p className="mb-3 font-normal text-gray-900">
               {currentComic.description}
