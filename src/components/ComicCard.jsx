@@ -26,7 +26,7 @@ const ComicCard = ({ currentComic }) => {
         </p>
 
         {/* bottone per comprare */}
-        <a href={currentComic.link}>
+        <a href={currentComic.link} target="_blank" rel="noopener noreferrer">
           <button className="bg-yellow-400 rounded-full text-black font-bold py-2 md:py-4 px-4 md:px-8 text-sm md:text-base cursor-pointer drop-shadow-[3px_3px_0px_rgba(0,0,0,1)] active:bg-yellow-600 active:translate-y-1 my-3">
             Ti piace? Acquistalo!
           </button>
