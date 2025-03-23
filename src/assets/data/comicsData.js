@@ -8,6 +8,7 @@ const comicsData = [
       "La mente di Peter Parker è morta nel corpo del Dottor Octopus, mentre questi, all’insaputa di tutti, adesso è all’interno del corpo di Peter. E non è tutto, perché ora Otto Octavius ha deciso di seguire le orme di Parker… ma vuole essere uno Spider-Man diverso, migliore e più efficace. In una parola: superiore!",
     coverUrl:
       "https://www.panini.it/media/catalog/product/cache/2d16730310b7945c46ddd1ca513e3c42/m/m/mmust093isbn_0.jpg",
+    link: "https://www.amazon.it/peggior-nemico-stesso-Superior-Spider-Man/dp/8828776935",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const comicsData = [
       "Sono passati 10 anni dall'ultimo avvistamento del giustiziere incappucciato. Un ormai anziano Bruce Wayne, ritiratosi dalla vita di vigilante, cerca un significato alla propria esistenza mentre Gotham sprofonda sempre più nel caos, ed è ormai la città sprofonda nel caos che Batman fa il suo ritorno trionfale, spalleggiato da Carrie kelly, il nuovo Robin.",
     coverUrl:
       "https://media-assets.wired.it/photos/6390c4eb4b4eff05489817cc/master/w_1920%2Cc_limit/Il%2520ritorno%2520del%2520cavaliere%2520oscuro.jpg",
+    link: "https://www.amazon.it/ritorno-del-cavaliere-oscuro-Batman/dp/B0DK815WGP/ref=sr_1_1?crid=287IFSPI03DF5&dib=eyJ2IjoiMSJ9.Ur82Bxsjcu9D9YewnNot7OdNXo4N6Z7ar1TXS3gQ8kEgJWEYMXazyhvyJsi_gSULaDGCra66pn-jbjKFpL4viy9AGOpwJ-pjr4xXFahA056JzvVmQe8SpkeJJgxgCIIQhTH7uRcs3KvoI6QQEx1E7H01v56O52lQhYpIRzbWEPlDgyzl19Tf5_8Jy73Gh1BQYiQhk8g9yHiZ7NTNt1uOaQGI7387mtuyt9gjec01MIE.O2qbnxu6ePheCLFF2bI9qQ_HUPacg_BCaoMZUwLH2cA&dib_tag=se&keywords=il+ritorno+del+cavaliere+oscuro&qid=1742742469&s=books&sprefix=il+ritorno+del%2Cstripbooks%2C92&sr=1-1",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const comicsData = [
       "Tony Stark deve vedersela con il suo più grande nemico: l'industriale Justin Hammer. Ma il nemico più oscuro e subdolo è nascosto all'interno di se... Cosa succederebbe se una delle menti più geniali venisse soverchiata dal demone dell'alcolismo?",
     coverUrl:
       "https://www.panini.it/media/catalog/product/cache/2d16730310b7945c46ddd1ca513e3c42/m/m/mmust107isbn_0.jpg",
+    link: "https://www.amazon.it/demone-nella-bottiglia-Iron-Man/dp/8828794097/ref=sr_1_1?crid=1FPRW1XLB3L6H&dib=eyJ2IjoiMSJ9.KFaq6kTkFk0ItQLnL2bzcyYVpZkw32sNYrYRTL27GrVHiX5BbUE7MhzJ7uhNeB45X3KNzc6fCJHWJcE1Qqt9NxPHGm6KJPF4mNwE-MQRdGBI67DdlzrdMvobNwAy1X1m.LPZr1huzukANr2yJJ_Bt9F5_MPCeIm1aX4bmLO1Zk6o&dib_tag=se&keywords=iron+man+il+demone+nella+bottiglia&qid=1742742521&sprefix=iron+man+il+dem%2Caps%2C79&sr=8-1",
   },
   {
     id: 4,

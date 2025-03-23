@@ -25,6 +25,13 @@ const ComicCard = ({ currentComic }) => {
           Editore: {currentComic.editore}
         </p>
 
+        {/* bottone per comprare */}
+        <a href={currentComic.link}>
+          <button className="bg-yellow-600 rounded-full text-black font-bold py-4 px-8 cursor-pointer">
+            Ti piace? Prendilo!
+          </button>
+        </a>
+
         {/* Descrizione dentro un balloon */}
         <div className=" bg-yellow-100 p-4 border-4 border-black rounded-lg shadow-2xl max-h-40 md:max-h-60 overflow-hidden">
           <div className="overflow-y-auto max-h-full pr-2">
